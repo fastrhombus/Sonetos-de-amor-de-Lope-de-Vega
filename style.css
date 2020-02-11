@@ -1,0 +1,37 @@
+body{
+    background: url("fondos/corazon-1.svg") left top / 150px repeat-y,rgb(255, 219, 224) url("fondos/corazon-2.svg") right top / 150px repeat-y;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+h1{
+    text-transform: uppercase;
+    font-size: 200%;
+}
+div{
+    border: 2px black solid;
+    margin-top: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    font-size: 125%;
+    font-weight: bold;
+}
+div.primero{
+    color: white;
+    background: url("fondos/manchas.png");
+}
+div.segundo{
+    color: rgb(255, 208, 0);
+    background: url("fondos/fuego.svg") no-repeat bottom right, url("fondos/fuego.svg") no-repeat bottom left, url("fondos/tallos.jpg");
+}
+div.tercero{
+    color: darkred;
+    background: url("fondos/ojo.svg") no-repeat 50%, url("fondos/hexagonos.jpg") ;
+}
+div.cuarto{
+    color: darkgreen;
+    margin-bottom: 40px;
+    padding-bottom: 50px;
+    background: url("fondos/caballo.svg") bottom center / 6.35% repeat-x, url("fondos/estrellas.png") ;
+}
