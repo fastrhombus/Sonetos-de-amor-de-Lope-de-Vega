@@ -2,7 +2,6 @@ body{
     background: url("fondos/corazon-1.svg") left top / 150px repeat-y,rgb(255, 219, 224) url("fondos/corazon-2.svg") right top / 150px repeat-y;
     text-align: center;
     font-family: sans-serif;
-    
 }
 h1{
     text-transform: uppercase;
@@ -27,7 +26,8 @@ div.segundo{
 }
 div.tercero{
     color: darkred;
-    background: url("fondos/ojo.svg") no-repeat 50%, url("fondos/hexagonos.jpg") ;
+    background: url("fondos/ojo.svg") no-repeat 50% , url("fondos/hexagonos.jpg") ;
+        background-size: contain;
 }
 div.cuarto{
     color: darkgreen;
